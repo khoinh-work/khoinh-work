@@ -1,0 +1,50 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09090B"/>
+      <stop offset="1" stop-color="#1E1E2E"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#11111B"/>
+      <stop offset="0.5" stop-color="#181825"/>
+      <stop offset="1" stop-color="#1E1E2E"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="220" fill="url(#bg)"/>
+
+  <g fill="#89B4FA">
+    <circle cx="125" cy="46" r="2" opacity="0.35">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="226" cy="74" r="1.5" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.15;0.6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="974" cy="51" r="2" opacity="0.45">
+      <animate attributeName="opacity" values="0.25;0.85;0.25" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1070" cy="87" r="1.5" opacity="0.55">
+      <animate attributeName="opacity" values="0.55;0.2;0.55" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="600" y="94" text-anchor="middle" fill="#89B4FA"
+        font-family="Segoe UI, Inter, Arial, sans-serif" font-size="44"
+        font-weight="700" letter-spacing="1" filter="url(#glow)">NGUYEN HUY KHOI</text>
+
+  <text x="600" y="131" text-anchor="middle" fill="#CDD6F4"
+        font-family="Segoe UI, Inter, Arial, sans-serif" font-size="18"
+        font-weight="500" letter-spacing="0.6">Technical Consultant | Software &amp; Data Systems</text>
+
+  <path d="M0 171C106 149 194 151 306 173C417 195 505 205 614 190C733 173 829 145 952 153C1046 159 1126 181 1200 188V220H0V171Z"
+        fill="url(#wave)"/>
+  <path d="M0 179C113 158 203 160 311 181C423 202 508 209 616 196C734 181 831 155 951 162C1046 168 1127 189 1200 196"
+        stroke="#313244" stroke-width="2" opacity="0.7"/>
+</svg>
