@@ -2,7 +2,7 @@
 <!--                    HEADER BANNER                      -->
 <!-- ===================================================== -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090b,100:1e1e2e&height=220&section=header&text=NGUYEN%20HUY%20KHOI&fontSize=42&fontColor=89b4fa&animation=twinkling&desc=Technical%20Consultant%20%7C%20Software%20%26%20Data%20Systems&descSize=18&descAlignY=62" width="100%" />
+<img src="./assets/header.svg" width="100%" alt="Nguyen Huy Khoi profile banner" />
 
 <div align="center">
 
@@ -246,4 +246,4 @@ Interested in **Enterprise Software, Backend Architecture, Data Systems, AI Engi
 </div>
 
 <!-- FOOTER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1e2e,100:09090b&height=100&section=footer" width="100%" />
+<img src="./assets/footer.svg" width="100%" alt="" />
